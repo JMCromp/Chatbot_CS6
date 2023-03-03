@@ -27,4 +27,4 @@ def chatbot():
     return render_template("chatbot.html", message="", response_list=response_list)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
