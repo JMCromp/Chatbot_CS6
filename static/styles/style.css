@@ -1,0 +1,25 @@
+* {
+    color: red;
+}
+
+.message {
+    border: 25px green solid;
+    animation: example;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes example {
+    0% {
+        border: 2px black solid;
+        width: 100%;
+    }
+    50% {
+        border: 8px red solid;
+        width: 20%;
+    }
+    100% {
+        border: 25px green solid;
+        width: 100%;
+    }
+}
